@@ -1,4 +1,4 @@
-# Human-Resources-data-analysis-using-MySQL
+# Human Resources data analysis using MySQL
 This project conducts exploratory data analysis on a company's human resources dataset using SQL queries.
 The analysis provides a thorough overview of the company's employee profile and trends. The SQL code can serve as a template for conducting human resources analytics.
 
