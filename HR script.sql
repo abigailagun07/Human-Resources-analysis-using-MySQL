@@ -236,6 +236,8 @@ FROM hr
 GROUP BY DATE_FORMAT(hire_date, '%Y')
 ORDER BY hire_year;
 
+select * from hires;
+
 CREATE VIEW alumni AS
 SELECT DATE_FORMAT(termdate, '%Y') AS alumni_year,
        COUNT(*) AS alumni_count
@@ -244,7 +246,7 @@ WHERE termdate <= CURDATE()
 GROUP BY DATE_FORMAT(termdate, '%Y')
 ORDER BY alumni_year;
 
-DROP VIEW alumni;
+
 select * from alumni;
 
 SELECT h.hire_year AS year_hired,
