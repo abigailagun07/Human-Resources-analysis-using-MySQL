@@ -47,13 +47,11 @@ The SQL scripts perform analysis on the HR data across four main categories:
 - Headcount change over time
 
 ## Scripts
-`data_cleaning.sql`
+`HR Script.sql`
 - Renames columns
 - Converts date columns to appropriate SQL date format
 - Fills in missing values
 - Adds computed column for age
-
-`data_analysis.sql`
 - Contains all the SQL queries to generate the analysis and insights on demographics, location, department, and tenure
 
 ## Key Insights
