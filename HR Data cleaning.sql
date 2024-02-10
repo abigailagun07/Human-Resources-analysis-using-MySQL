@@ -15,7 +15,7 @@ select department from hr where department = '' or department is null;
 select jobtitle from hr where jobtitle = '' or jobtitle is null;
 select location from hr where location = ''or location is null;
 select hire_date from hr where hire_date is null or hire_date is null;
-select termdate from hr where termdate= '' or termdate is null; #empty string values present termdate
+select termdate from hr where termdate= '' or termdate is null; #empty string values present termdate;
 select location_city from hr where location_city = '' or location_city is null;
 select location_state from hr where location_state = '' or location_state is null;
 
